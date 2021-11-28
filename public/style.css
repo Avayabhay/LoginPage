@@ -3,6 +3,10 @@
 body {
   /* background-color: rgb(245, 245, 236); */
   font-family: "M PLUS 1 Code", sans-serif;
+  /* background-image: url("/static/assets/back.jpg"); */
+  background-image: url("https://images.unsplash.com/photo-1598301412171-f3b253961f9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .center-div {
   /* background-color: beige; */
@@ -11,6 +15,9 @@ body {
 
 .btn-success {
   padding: 0.4em 2em;
+  color: #fff;
+  background-color: #5486a385;
+  border-color: #ffffff;
 }
 
 #login .title span {
